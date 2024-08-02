@@ -313,7 +313,7 @@ Finally, we check the correlation map to see feature importance.
 
 
     
-![png](corr.png)
+![png](images/corr.png)
     
 
 
