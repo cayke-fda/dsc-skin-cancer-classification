@@ -328,13 +328,13 @@ Next we use different models to see how they score with our data.
 Our baseline model is a dummy classifier. This is important as this classifier will define our ROC curve with AUC=0.5
 
 
-![png](cm1.png)
+![png](images/cm1.png)
     
 
 
 
     
-![png](roc1.png)
+![png](images/roc1.png)
     
 
 
@@ -350,7 +350,7 @@ Our first model is a simple logistic regression with no penalty. Before adding t
 
 
     
-![png](cm2.png)
+![png](images/cm2.png)
     
 
 
@@ -363,7 +363,7 @@ Our first model is a simple logistic regression with no penalty. Before adding t
 
 
     
-![png](roc2.png)
+![png](images/roc2.png)
     
 
 
@@ -378,7 +378,7 @@ Our second model is a decision tree. We have also tried using Random Forests but
 
 
     
-![png](cm3.png)
+![png](images/cm3.png)
     
 
 
@@ -388,7 +388,7 @@ Our second model is a decision tree. We have also tried using Random Forests but
 
 
 
-![png](roc3.png)
+![png](images/roc3.png)
     
 
 
@@ -401,7 +401,7 @@ Our second model is a decision tree. We have also tried using Random Forests but
 Because of the size of our data, a smart approach would be using a stochastic gradient descent as it is much faster to calculate gradients and reach a good answer (which might not be optimal).
 
 
-![png](cm4.png)
+![png](images/cm4.png)
     
 
 
@@ -411,7 +411,7 @@ Because of the size of our data, a smart approach would be using a stochastic gr
 
 
     
-![png](roc4.png)
+![png](images/roc4.png)
     
 
 
@@ -425,12 +425,12 @@ We now start using regularization methods along with polynomial features to chec
 # Fourth Model -  Logistic Regression with L2 Penalty
 
 
-![png](cm5.png)
+![png](images/cm5.png)
     
 
 
 
-![png](roc5.png)
+![png](images/roc5.png)
     
 
 
@@ -442,7 +442,7 @@ We now start using regularization methods along with polynomial features to chec
 
 
     
-![png](cm6.png)
+![png](images/cm6.png)
     
 
 
@@ -451,7 +451,7 @@ We now start using regularization methods along with polynomial features to chec
 
 
     
-![png](roc6.png)
+![png](images/roc6.png)
     
 
 
@@ -478,7 +478,7 @@ The only models that performed significantly better than the Dummy Classifier we
 Our first approach to this set is to first check the kind of pictures we are dealing with.
 
 
-![png](skinlesion.png)
+![png](images/skinlesion.png)
     
 
 
@@ -540,7 +540,7 @@ We start by rebuilding the architecture of that neural network using tensorflow 
 
 
 
-![png](cm7.png)
+![png](images/cm7.png)
     
 
 
